@@ -1,0 +1,8 @@
+mklink /D node_modules ..\..\node_modules --> para crear un link simbolico de node_modules y utilizar en todos el mismo node_modules , poniendo ésta en la raiz del proyecto
+
+ng new nombre_proyecto -si  --> se crea un proyecto nuevo sin node_modules
+
+ng g m nombre_modulo  --> para generar un modulo
+
+ng g c nombre_component  --> para generar un componente
+
