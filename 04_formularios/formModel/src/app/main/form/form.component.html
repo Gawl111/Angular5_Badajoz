@@ -1,12 +1,11 @@
 <article>
-    <form novalidate #formulario="ngForm" (ngSubmit)="enviar()">
+    <form #formulario="ngForm" (ngSubmit)="enviar()">
         <!--Text-->    
         <h2>Usuario</h2>
         <p>
-            <input type="text" name="name" required minlength="4" #nameState="ngModel"
+            <input type="text" name="name" required minlength="4" 
             placeholder="Indica tu nombre" [(ngModel)]="user.nombre">
         </p>
-        <div [hidden]="nameState.valid || nameState.untouched" class="error-message"></div>
         <p>
             <input type="text" name="apellido" required #apellidoState="ngModel"
             placeholder="Indica tu apellido" [(ngModel)]="user.apellido">
