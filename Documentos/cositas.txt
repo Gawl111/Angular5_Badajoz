@@ -6,3 +6,5 @@ ng g m nombre_modulo  --> para generar un modulo
 
 ng g c nombre_component  --> para generar un componente
 
+ng g c home/home --flat  -> para generar un componente sin necesidad de crear la carpeta de ruta
+
